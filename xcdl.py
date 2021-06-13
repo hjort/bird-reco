@@ -36,7 +36,7 @@ def save_json(searchTerms):
     numPages=1
     page=1;
     #create a path to save json files and recordings
-    path = "data/xeno-canto-dataset/" + '_'.join([x.lower() for x in searchTerms])
+    path = "mp3/" + '_'.join([x.lower() for x in searchTerms])
     #path = "data/xeno-canto-dataset/" + ''.join(searchTerms)
     if not os.path.exists(path):
         print("Creating subdirectory " + path + " for downloaded files...")
