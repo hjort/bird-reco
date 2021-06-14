@@ -1,4 +1,8 @@
+.ipynb_checkpoints/
 audios/
 mp3/
 wav/
-.ipynb_checkpoints/
+wav10s/
+wavbal/
+wavbal10s/
+wavbal5s/

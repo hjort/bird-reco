@@ -1,5 +1,5 @@
 #!/bin/bash
-TAMANHO=5 # cada corte terá essa duração (em segundos)
+TAMANHO=10 # cada corte terá essa duração (em segundos)
 
 direntrada="mp3"
 dirsaida="wav"
