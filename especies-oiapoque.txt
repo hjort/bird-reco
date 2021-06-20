@@ -1,7 +1,7 @@
 Ramphocelus carbo
 Pitangus sulphuratus
 Querula purpurata
-Cacicus cela 
+Cacicus cela
 Pteroglossus aracari
 Tangara episcopus
 Dacnis cayana
@@ -27,7 +27,7 @@ Mionectes macconnelli
 Hypocnemis cantator
 Leptotila rufaxilla
 Dacnis lineata 
-Tyrannus melancholicus 
+Tyrannus melancholicus
 Trogon viridis
 Manacus manacus
 Geotrygon montana
@@ -68,3 +68,12 @@ Vireo chivi
 Coragyps atratus 
 Myrmoderus ferrugineus 
 Campephilus rubricollis
+Pseudopipra pipra
+Thraupis episcopus
+Thraupis palmarum
+Turdus flavipes
+Turdus fumigatus
+Turdus albicollis
+Phaethornis superciliosus
+Phaethornis ruber
+Phaethornis rupurumii
