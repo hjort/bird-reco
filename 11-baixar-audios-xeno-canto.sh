@@ -12,4 +12,5 @@ do
   python xcdl.py $especie &
 done <<< $especies
 
-join
+wait
+echo "Concluído!"
