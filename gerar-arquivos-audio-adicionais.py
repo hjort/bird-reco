@@ -45,8 +45,13 @@ def produzir_arquivos_adicionais(especie, qtde_necessaria):
         variacao += 1
 
         # ler arquivos de entrada em MP3
-        for arquivo in os.listdir(os.path.join(DIR_ENTRADA, especie)):
-
+        arquivos = [arq for arq in os.listdir(os.path.join(DIR_ENTRADA, especie)) if arq.endswith('.mp3')]
+        if len(arquivos) == 0:
+            break
+            
+        #for arquivo in os.listdir(os.path.join(DIR_ENTRADA, especie)):
+        for arquivo in arquivos:
+                                              
             # sair do laço se atingir a quantidade necessária
             if qtde_arquivos >= qtde_faltante:
                 break
