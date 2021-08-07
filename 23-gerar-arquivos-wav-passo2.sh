@@ -1,6 +1,6 @@
 #!/bin/bash
 
-especies=`cat especies-oiapoque.txt`
+especies=`cat especies-oiapoque2.txt`
 
 #echo "[$especies]"
 #exit

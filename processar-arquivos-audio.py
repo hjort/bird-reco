@@ -31,6 +31,12 @@ def processar_arquivo_especie(especie):
     if not especie:
         return 0
 
+    if not os.path.isdir(DIR_SAIDA):
+        os.mkdir(DIR_SAIDA)
+    dir_especie = os.path.join(DIR_SAIDA, especie)
+    if not os.path.isdir(dir_especie):
+        os.mkdir(dir_especie)
+
     print("[%s] iniciado" % especie)
     qtde_arquivos = 0
 #    return 0
